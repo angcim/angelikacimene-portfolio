@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Pacifico|Muli');
+
+/*applies to multiple*/
+header, ul {
+  display: flex;
+}
+
+header, ul li, section, .worklinks, footer p {
+  text-align: center;
+}
+
+/*font*/
+header {
+  font-family: 'Raleway';
+}
+
+h1, h2, aside p {
+  font-family: 'Pacifico';
+}
+
+ul, p {
+  font-family: 'Muli';
+}
+
+/*body*/
+body {
+  margin: auto;
+  width: 940px;
+  padding-bottom: 30px;
+}
+
+header {
+  padding-left: 140px;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-left: -80px;
+  font-size: 60px;
+  color: #73C8B0;
+}
+
+main a:hover {
+  border-radius: 50%;
+  transition: border-radius 3s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+img {
+  padding: 5px;
+}
+
+/*nav*/
+ul {
+  flex-direction: row;
+  padding: 10px 250px 10px 250px;
+  list-style-type: none;
+  border-top: 1px solid #7e7f7e;
+  border-bottom: 1px solid #7e7f7e;
+}
+
+ul li {
+  flex-direction: column;
+  padding: 0px 30px 0px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #797c7c;
+}
+
+a:hover {
+  color: #23b25c;
+}
+
+/*aside: next and previous page*/
+#next, #previous{
+font-size: 30px;
+}
+
+#next{
+padding: 0px 0px 0px 870px;
+}
+
+aside p a{
+  color:#4dcc8e;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #3dc7e2;
+  color: #FFF;
+  padding: 10px 0px 0px 0px;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer a:hover {
+  color: #bbef53;
+}
+
+/* other posts */
+h2 {
+  font-size: 100px;
+  margin: 0;
+  color: #09a377;
+  padding-bottom: 30px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+
+.images {
+  padding: 0px 40px 40px 0px;
+  float: left;
+}
+
+section {
+  overflow: hidden;
+}
+
+strong {
+  font-size: 20px;
+}
+
+/*content links*/
+.worklinks {
+  color: #000;
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.worklinks a {
+  color: #42b9f4;
+}
+
+.worklinks a:hover {
+  color: #65d134;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
