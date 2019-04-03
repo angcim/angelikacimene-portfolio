@@ -149,6 +149,13 @@ strong {
   color: #65d134;
 }
 
+.special {
+  font-size: 50px;
+}
+
+#des186{
+  padding-bottom: 50px;
+}
 @media only screen and (max-width: 600px) {
-  
+
 }
